@@ -480,6 +480,12 @@ console.log(svuotaLista());
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
 */
 
+/*function classTab(){
+  let assegnoId=document.getElementsByTagName("tr");
+  assegnoId.className="test";
+}
+console.log(classTab);*/
+
 // [EXTRA] JS Avanzato
 
 /* ESERCIZIO 27
@@ -509,6 +515,7 @@ console.log(svuotaLista());
 /* ESERCIZIO 29
   Crea una funzione chiamata "isItPrime" che riceve un numero come parametro e ritorna true se il numero fornito è un numero primo.
 */
+
 
 /* Questo array viene usato per gli esercizi. Non modificarlo. */
 

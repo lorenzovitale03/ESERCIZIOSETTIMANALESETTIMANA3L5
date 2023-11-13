@@ -410,24 +410,48 @@ console.log(sumAllTheYears(movies));
 /* ESERCIZIO 19
   Scrivi una funzione chiamata "removeIndex" che riceve un numero come parametro e ritorna l'array "movies" fornito privo dell'elemento nella posizione ricevuta come parametro.
 */
-  
+
 // DOM (nota: gli elementi che selezionerai non si trovano realmente nella pagina)
 
 /* ESERCIZIO 20
   Scrivi una funzione per selezionare l'elemento dotato di id "container" all'interno della pagina.
 */
-
+function contenitore(){
+  document.getElementById("container");
+}
+console.log("Esercizio 24");
+console.log(contenitore());
 /* ESERCIZIO 21
   Scrivi una funzione per selezionare ogni tag <td> all'interno della pagina.
 */
 
+function rigaTab(){
+  document.querySelectorAll("td");
+}
+console.log("Esercizio 25");
+console.log(rigaTab());
 /* ESERCIZIO 22
   Scrivi una funzione che, tramite un ciclo, stampa in console il testo contenuto in ogni tag <td> all'interno della pagina.
 */
-
+function ciclo(){
+  let contenuto=document.querySelectorAll("td");
+  contenuto.forEach(element=>{
+    element.innerHTML="ciaoo";
+  })
+}
+console.log("Esercizio 26");
+console.log(ciclo());
 /* ESERCIZIO 23
   Scrivi una funzione per aggiungere un background di colore rosso a ogni link all'interno della pagina.
 */
+function link(){
+  let background=document.querySelectorAll("a");
+  background.forEach(element=>{
+    element.style.backgroundColor="red";
+  })
+}
+console.log("Esercizio 27");
+console.log(link());
 
 /* ESERCIZIO 24
   Scrivi una funzione per aggiungere un nuovo elemento alla lista non ordinata con id "myList".
